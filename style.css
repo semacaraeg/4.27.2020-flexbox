@@ -4,8 +4,8 @@ body {
 .square {
   background-color: rgb(218, 208, 209);
   padding: 3em;
-  width: 220px;
-  height: 220px;
+  width: 250px;
+  height: 250px;
   border-radius: 10%;
   display: flex;
   flex-direction: column;
@@ -30,16 +30,29 @@ body {
 }
 
 .form-button {
+  display:inline-block;
+  padding: 0.3em 1.2em;
+  margin: 0.3em 0.3em 0;
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 300;
+  color: white;
   font-size: 15px;
   height: 30px;
-  border: none;
-  box-shadow: 2px 2px gray;
-  background-color: rgb(172, 173, 173);
+  background-color: #4eb5f1;
 }
 
 .rememberPass {
-  text-align: center;
-  font-size: 12px;
+  font-size: 11px;
   margin: 10px;
-  display: inline;
+}
+
+.links {
+  text-decoration: none;
+  color: black;
+}
+
+.links:hover {
+  color: lightcoral;
 }
